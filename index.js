@@ -16,7 +16,7 @@ for (i = 0; i < words.length; i++) {
 }
 
 function newList(text) {
-    const newList = document.createElement("li");
+    const newList = document.createElement("div");
     const newText = document.createTextNode(text);
     newList.appendChild(newText);
     document.getElementById("list").appendChild(newList);
